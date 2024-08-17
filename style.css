@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #313131;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  background-color: rgb(126, 65, 184);
+  border-radius: 30px;
+  padding: 15px;
+}
+.container > h3 {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 196, 0);
+}
+.inputContainer {
+  display: flex;
+  padding: 2px;
+  margin-top: 30px;
+}
+.inputArea {
+  text-align: center;
+}
+.inputArea input {
+  padding: 0 3px;
+  text-align: center;
+  width: 50%;
+  height: 25px;
+  border-radius: 6px;
+}
+.info {
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(172, 123, 217);
+  border-radius: 20px;
+  padding: 10px;
+}
+.info h4:first-of-type {
+  color: rgb(47, 239, 239);
+}
